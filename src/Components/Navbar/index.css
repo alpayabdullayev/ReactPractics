@@ -1,0 +1,19 @@
+nav{
+    min-height: 72px;
+    background-color: black;
+}
+
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navbar .logo{
+    max-width: 54px;
+}
+
+nav .navbar ul{
+    display: flex;
+    gap: 20px;
+}

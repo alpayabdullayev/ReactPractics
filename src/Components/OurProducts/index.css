@@ -1,0 +1,17 @@
+#ourProducts{
+    min-height: 50vh;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#ourProducts h1{
+    text-align: center;
+}
+
+#ourProducts .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}

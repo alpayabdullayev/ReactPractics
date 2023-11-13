@@ -1,0 +1,27 @@
+footer{
+    background-color: black;
+    color: white;
+    min-height: 30vh;
+}
+
+footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .footer-content .footerLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+footer .footer-content ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
